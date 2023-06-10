@@ -1,0 +1,315 @@
+@media screen and (max-width: 376px) {
+  body {
+    background-image: url(img/mobile/background-top.png);
+  }
+
+  .box {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .wrapper {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header {
+    width: 100%;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    background: #172755;
+    box-shadow: 0px 4px 4px #12214d;
+    z-index: 1;
+  }
+
+  .header-img {
+    max-width: 75%;
+  }
+
+  .navbar-collapse {
+    z-index: 1;
+  }
+
+  .fold {
+    grid-template-columns: repeat(1, 100%);
+    margin-top: 14.6%;
+    margin-bottom: 75%;
+    margin-right: 0;
+  }
+
+  .fold-right {
+    margin-top: 7.7%;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .fold-title {
+    font-size: 31px;
+  }
+
+  .fold-desc {
+    margin-bottom: 7.7%;
+  }
+
+  .fold-span {
+    display: none;
+  }
+
+  .fold-button {
+    width: 100%;
+  }
+
+  .fold-group {
+    width: 100%;
+    order: -1;
+    height: 231px;
+    position: static;
+    background: #ffffff;
+    background-image: url(img/fold/Frame\ 12.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12.5px;
+  }
+
+  .fold-img {
+    display: none;
+  }
+
+  .fold-boxmini {
+    display: none;
+  }
+
+  .features {
+    margin-bottom: 21.1%;
+  }
+
+  .features-title {
+    text-align: left;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .features-desc {
+    text-align: left;
+    font-size: 14px;
+    line-height: 140%;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 12%;
+  }
+
+  .features-group {
+    flex-direction: column;
+  }
+
+  .features-box {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .box-icon {
+    margin: 0;
+    margin-right: 8.3%;
+  }
+
+  .box-title {
+    text-align: left;
+    margin-bottom: 3.7%;
+  }
+
+  .box-desc {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .screenshots {
+    margin-bottom: 21.7%;
+  }
+
+  .screenshots-box {
+    flex-direction: column;
+    margin-bottom: 17.8%;
+  }
+
+  .box-right {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .screenshots-title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 6%;
+  }
+
+  .screenshots-desc {
+    font-size: 14px;
+    line-height: 140%;
+    margin-bottom: 9%;
+  }
+
+  .img-group {
+    max-width: 100%;
+  }
+
+  .screenshots-chart {
+    padding: 28.48px 40.25px 27.29px 35.73px;
+  }
+
+  .screenshots-group {
+    padding: 40.2px 32.94px 37.41px 31.83px;
+  }
+
+  .screenshots-calendar {
+    padding: 31.84px 37.98px 26.81px 39.1px;
+  }
+
+  .box-left {
+    order: -1;
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .pricing-plans {
+    height: 986px;
+    margin-bottom: 9.4%;
+  }
+
+  .pricing-plans {
+    background-image: url(img/mobile/background-bottom.png);
+  }
+
+  .plans {
+    padding-top: 54.7%;
+  }
+
+  .plans-title {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: left;
+    margin-bottom: 5.4%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .plans-desc {
+    font-size: 14px;
+    line-height: 140%;
+    text-align: left;
+    margin-bottom: 15.8%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .plans-box {
+    margin-bottom: 200px;
+    width: 280px;
+  }
+
+  .plans-group {
+    overflow: hidden;
+  }
+
+  .slick-list {
+    overflow: hidden;
+  }
+
+  .slick-track {
+    display: flex;
+  }
+
+  .slick-slide {
+    margin-right: 20px;
+  }
+
+  .slick-slide:last-of-type {
+    margin-right: 0;
+  }
+
+  .box-subtitle {
+    font-size: 25px;
+    line-height: 29px;
+    margin-top: 35px;
+    margin-bottom: 7px;
+  }
+
+  .box-signature {
+    font-size: 13px;
+    line-height: 140%;
+    margin-bottom: 30px;
+  }
+  .plans-line {
+    margin-bottom: 20px;
+  }
+
+  .box-price {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #ffffff;
+    margin-bottom: 0;
+    transition: color 0.5s;
+  }
+
+  .box-permonth {
+    font-size: 13px;
+    line-height: 140%;
+    margin-bottom: 36px;
+  }
+
+  .box-button {
+    margin-bottom: 47px;
+  }
+
+  .signup {
+    margin-bottom: 10.5%;
+  }
+
+  .logo-group {
+    display: none;
+  }
+
+  .registration {
+    width: 100%;
+    background-image: none;
+  }
+
+  .registration-box {
+    width: 100%;
+    margin: 0;
+  }
+
+  .button {
+    max-width: 89.3%;
+  }
+
+  .registration-button {
+    padding-left: 83px;
+    padding-right: 83px;
+  }
+
+  .form {
+    width: 89.3%;
+  }
+
+  .box-footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .footer-menu {
+    display: none;
+  }
+
+  .footer-box {
+    padding-top: 10.7%;
+    padding-bottom: 10.7%;
+  }
+}

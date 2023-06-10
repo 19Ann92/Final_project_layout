@@ -1,0 +1,13 @@
+@media screen and (max-width: 992px) {
+  .sign {
+    order: 0;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+}
